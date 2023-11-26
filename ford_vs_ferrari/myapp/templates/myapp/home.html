@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ford vs Ferrari</title>
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: 350px 430px;
+            background-image: url('/static/Ford_v_Ferrari_poster.png');
+            background-color: #111;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        a {
+            font-weight: bold;
+            color: #000000;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo ao mundo de Ford vs Ferrari!</h1>
+    
+    <div>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'resumo' %}">Resumo</a>
+        <a href="{% url 'onde_encontrar' %}">Onde Encontrar</a>
+    </div>
+</body>
+</html>

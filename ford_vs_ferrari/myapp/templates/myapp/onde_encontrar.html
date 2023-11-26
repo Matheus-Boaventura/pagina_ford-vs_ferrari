@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ford vs Ferrari</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        ul {
+            list-style-type: none; 
+            padding: 0; 
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'resumo' %}">Resumo</a>
+    </div>
+
+    <h1>Onde Encontrar Ford vs Ferrari</h1>
+    <p>Você pode encontrar o filme nas seguintes plataformas de streaming:</p>
+    <ul>
+        <li>Disney Plus</li>
+        <li>Apple TV</li>
+        <li>Prime Video</li>
+        <li>Star Plus</li>
+    </ul>
+</body>
+</html>
